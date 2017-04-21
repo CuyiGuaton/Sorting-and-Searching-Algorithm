@@ -3,6 +3,8 @@
 #include <string.h>
 #include <time.h>
 
+int busqueda(char key[4], char* a, int largo);
+
 int busqueda(char key[4], char* a, int largo){
   int freq=0;
   int k;
@@ -15,7 +17,6 @@ int busqueda(char key[4], char* a, int largo){
   }
   return freq;
 }
-
 
 int main(int argc, char const *argv[]) {
 
@@ -38,6 +39,8 @@ int main(int argc, char const *argv[]) {
       fclose(inputfile);
   }
 
+  clock_t start_t, end_t, total_t;
+  start_t = clock();
   char key[5]; //key es de largo 5 para dejar espacio al end of string character
   int freq;
   int M = 0;
@@ -50,11 +53,12 @@ int main(int argc, char const *argv[]) {
     resultFreq[i]=freq; //no es necesario guardar la llave ya que será igual a su indice
   }
   printf("Los números más repetidos son:\n", M);
-  for (size_t i = 0; i < 10000; i++) {
-    if (resultFreq[i] == M) {
+  for (size_t i = 0; i < 10000; i++)
+    if (resultFreq[i] == M)
       printf("%04i se repite %i veces\n", i,resultFreq[i] );
-    }
-  }
+
+    end_t = clock();
+  printf("\n time: %f segundos",  (double)(end_t - start_t) / CLOCKS_PER_SEC);
   free(a);
   return 0;
 }

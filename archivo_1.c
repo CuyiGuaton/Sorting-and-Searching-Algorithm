@@ -8,6 +8,7 @@ int main(int argc, char const *argv[]) {
   char c;
   int largo = 0;
   char *a = (char *)malloc(50000*sizeof(char *));;
+  char *b = (char *)malloc(50000*sizeof(char *));;
   inputfile = fopen("archivo_1.tex", "r");
 
   if (inputfile == NULL) {
@@ -27,6 +28,7 @@ int main(int argc, char const *argv[]) {
 
   char key[4];
   int aux = 0;
+  int count = 0;
   for (size_t i = 0; i < 1000; i++) {
       aux = i;
       key[3]= aux/10 <100 ? aux%10  + '0' : '0' ;
@@ -35,11 +37,20 @@ int main(int argc, char const *argv[]) {
       aux/=10;
       key[1]= aux/10 <1 ? aux%10 + '0' : '0' ;
       key[0]= aux%10 + '0';
-      for (size_t j = 0; j < 4; j++) {
-        printf("%c", key[j]);
-      }
-      printf("\n");
+      // for (size_t j = 0; j < 4; j++) {
+      //   printf("%c", key[j]);
+      // }
+      // printf("\n");
 
+      for (size_t j = 0; j < largo-4; j++) {
+        int k =0;
+        while(j <4 && a[i+j] == key[j])
+          j++;
+        if(j == 4){
+          count++;
+        }
+
+      }
   }
   free(a);
   return 0;

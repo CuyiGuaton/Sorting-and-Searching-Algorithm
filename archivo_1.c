@@ -4,6 +4,8 @@
 #include <time.h>
 
 int main(int argc, char const *argv[]) {
+
+  //abre el archivo
   FILE *inputfile;
   char c;
   int largo = 0;
@@ -30,30 +32,21 @@ int main(int argc, char const *argv[]) {
   int aux = 0;
   int freq = 0;
   int k;
-  for (size_t i = 0; i < 1000; i++) {
-      aux = i;
-      key[3]= aux/10 <100 ? aux%10  + '0' : '0' ;
-      aux/=10;
-      key[2]= aux/10 <10 ? aux%10  + '0' : '0' ;
-      aux/=10;
-      key[1]= aux/10 <1 ? aux%10 + '0' : '0' ;
-      key[0]= aux%10 + '0';
-      // for (size_t j = 0; j < 4; j++) {
-      //   printf("%c", key[j]);
-      // }
-      // printf("\n");
-      for (size_t j = 0; j < largo-4; j++) {
-        k =0;
-        while(k <4 && a[j+k] == key[k])
-          k=k+1;
-        if(k == 4){
-          //  for (size_t t = 0; t < 4; t++) {
-          //    printf("%c", key[t]);
-          //  }
-          //  printf("\n" );
-          freq++;
-        }
+  for (int i = 0; i < 10000; i++) {
+    sprintf(key,"%04d",i);  
+    for (size_t j = 0; j < largo-4; j++) {
+      k =0;
+      while(k <4 && a[j+k] == key[k])
+        k=k+1;
+      if(k == 4){ //Aquí encontro el string
+          for (size_t t = 0; t < 4; t++) {
+            printf("%c", key[t]);
+          }
+          printf("\n" );
+        //freq++;
       }
+    }
+
   }
   free(a);
   return 0;

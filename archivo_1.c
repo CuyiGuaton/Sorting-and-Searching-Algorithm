@@ -24,7 +24,7 @@ int main(int argc, char const *argv[]) {
   char c;
   int largo = 0;
   char *a = (char *)malloc(50000*sizeof(char *));;
-  char *b = (char *)malloc(50000*sizeof(char *));;
+//  char *b = (char *)malloc(50000*sizeof(char *));;
   inputfile = fopen("archivo_1.tex", "r");
   if (inputfile == NULL) {
       fprintf(stderr, "Failed to open the file.\n");

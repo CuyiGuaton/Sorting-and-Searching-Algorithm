@@ -18,7 +18,7 @@ int main(int argc, char const *argv[]) {
   if (inputfile) {
       for ( int i=0; (c = getc(inputfile)) != EOF; i++){
           a[i] = c;
-          putchar(a[i]);
+          //putchar(a[i]);
           largo++;
       }
       fclose(inputfile);
@@ -28,7 +28,8 @@ int main(int argc, char const *argv[]) {
 
   char key[4];
   int aux = 0;
-  int count = 0;
+  int freq = 0;
+  int k;
   for (size_t i = 0; i < 1000; i++) {
       aux = i;
       key[3]= aux/10 <100 ? aux%10  + '0' : '0' ;
@@ -41,15 +42,17 @@ int main(int argc, char const *argv[]) {
       //   printf("%c", key[j]);
       // }
       // printf("\n");
-
       for (size_t j = 0; j < largo-4; j++) {
-        int k =0;
-        while(j <4 && a[i+j] == key[j])
-          j++;
-        if(j == 4){
-          count++;
+        k =0;
+        while(k <4 && a[j+k] == key[k])
+          k=k+1;
+        if(k == 4){
+          //  for (size_t t = 0; t < 4; t++) {
+          //    printf("%c", key[t]);
+          //  }
+          //  printf("\n" );
+          freq++;
         }
-
       }
   }
   free(a);

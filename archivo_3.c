@@ -42,7 +42,7 @@ int main(int argc, char const *argv[]) {
   clock_t start_t, end_t, total_t;
   start_t = clock();
 
-  char key[10]; //key es de largo 5 para dejar espacio al end of string character
+  char key[2]; //key es de largo 5 para dejar espacio al end of string character
   int freq;
   for (int i = 0; i < largo; i+=6) {
     strncpy(key, a, 6);

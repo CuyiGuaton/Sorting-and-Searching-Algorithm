@@ -3,16 +3,16 @@
 #include <string.h>
 #include <time.h>
 
-int busqueda(char key[4], char* a, int largo);
+int busqueda(char key[10], char* a, int largo);
 
-int busqueda(char key[4], char* a, int largo){
+int busqueda(char key[10], char* a, int largo){
   int freq=0;
   int k;
-  for (int j = 0; j < largo-4; j++) { // Aquí empíeza la busqueda
+  for (int j = 0; j < largo-6; j++) { // Aquí empíeza la busqueda
     k =0;
-    while(k <4 && key[k] == a[j+k])
+    while(k <6 && key[k] == a[j+k])
       k=k+1;
-    if(k == 4) //Aquí encontro el string
+    if(k == 6) //Aquí encontro el string
         freq++;
   }
   return freq;
@@ -44,12 +44,11 @@ int main(int argc, char const *argv[]) {
 
   char key[10]; //key es de largo 5 para dejar espacio al end of string character
   int freq;
-  for (int i = 0; i < largo-6; i+=6) {
+  for (int i = 0; i < largo; i+=6) {
     strncpy(key, a, 6);
     freq = busqueda(key,a,largo);
-    //if(freq > 1){
+    if(freq > 1)
       printf("%s - %i\n",key,freq );
-
     a+=6;
   }
 

@@ -1,0 +1,6 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=6111FF98
+eax=20003120 ebx=34313730 ecx=00000001 edx=20003118 esi=54316848 edi=20000000
+ebp=00000003 esp=0061CBB0 program=E:\OneDrive - usach.cl\documentos\Complejidad\lab2\a.exe, pid 7700, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args

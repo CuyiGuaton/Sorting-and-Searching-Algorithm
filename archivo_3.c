@@ -27,7 +27,13 @@ int main(int argc, char const *argv[]) {
 
   clock_t start_t, end_t, total_t;
   start_t = clock();
-
+  int **fragments;
+  fragments = malloc(sizeof(*fragments) * largo / 6);
+  for (size_t i = 0; i < largo/6; i++) {
+    fragments[i] = atoi(strndup(a + 6 * i, 6));
+    printf("%i\n", fragments[i]);
+  }
+ /*
   char key[2]; //key es de largo 5 para dejar espacio al end of string character
   int freq;
   for (int i = 0; i < largo; i+=6) {
@@ -37,7 +43,7 @@ int main(int argc, char const *argv[]) {
       printf("%s - %i\n",key,freq );
     a+=6;
   }
-
+*/
   end_t = clock();
   printf("\n time: %f segundos",  (double)(end_t - start_t) / CLOCKS_PER_SEC);
   free(a);

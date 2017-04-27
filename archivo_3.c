@@ -31,7 +31,7 @@ int main(int argc, char const *argv[]) {
   fragments = malloc(sizeof(*fragments) * largo / 6);
   for (size_t i = 0; i < largo/6; i++) {
     fragments[i] = atoi(strndup(a + 6 * i, 6));
-    printf("%i\n", fragments[i]);
+    printf("%06i\n", fragments[i]);
   }
  /*
   char key[2]; //key es de largo 5 para dejar espacio al end of string character

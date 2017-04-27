@@ -3,20 +3,6 @@
 #include <string.h>
 #include <time.h>
 
-int busqueda(char key[10], char* a, int largo);
-
-int busqueda(char key[10], char* a, int largo){
-  int freq=0;
-  int k;
-  for (int j = 0; j < largo-6; j++) { // Aquí empíeza la busqueda
-    k =0;
-    while(k <6 && key[k] == a[j+k])
-      k=k+1;
-    if(k == 6) //Aquí encontro el string
-        freq++;
-  }
-  return freq;
-}
 
 int main(int argc, char const *argv[]) {
 

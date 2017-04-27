@@ -29,10 +29,9 @@ int main(int argc, char const *argv[]) {
 
   clock_t start_t, end_t, total_t;
   start_t = clock();
-  int **fragments;
-  fragments = malloc(sizeof(*fragments) * largo / 6);
+  int *splitArray = malloc((largo/6)*sizeof(int *));
   for (size_t i = 0; i < largo/6; i++) {
-    fragments[i] = atoi(strndup(a + 6 * i, 6));
+    splitArray[i] = atoi(strndup(a + 6 * i, 6));
   }
  /*
   char key[2]; //key es de largo 5 para dejar espacio al end of string character
@@ -46,8 +45,8 @@ int main(int argc, char const *argv[]) {
   }
 */
 
-  for (size_t i = 0; i < largo/6; i++) {
-        printf("%06i\n", fragments[i]);
+  for (size_t i = 0; i < largo/6  ; i++) {
+        printf("%06i\n", splitArray[i]);
   }
   end_t = clock();
   printf("\n time: %f segundos",  (double)(end_t - start_t) / CLOCKS_PER_SEC);

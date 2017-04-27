@@ -41,6 +41,24 @@ int main(int argc, char const *argv[]) {
 
   clock_t start_t, end_t, total_t;
   start_t = clock();
+
+  int *b = (int*)calloc(10000, sizeof(int));
+  char key[2]; //key es de largo 5 para dejar espacio al end of string character
+  int number;
+  int mayor = 0;
+  for (size_t i = 0; i < largo; i++) {
+    strncpy(key, a, 4);
+    number = atoi(key);
+    b[number] +=1;
+    if(b[number] >= mayor)
+      mayor = b[number];
+    a+=1;
+  }
+  for (int i = 0; i < 10000; i++) {
+    if( b[i] == mayor )
+      printf("b[%i] = %i\n", i,b[i] );
+  }
+  /*
   char key[5]; //key es de largo 5 para dejar espacio al end of string character
   int freq;
   int M = 0;
@@ -56,9 +74,11 @@ int main(int argc, char const *argv[]) {
   for (size_t i = 0; i < 10000; i++)
     if (resultFreq[i] == M)
       printf("%04i se repite %i veces\n", i,resultFreq[i] );
-
+*/
     end_t = clock();
+
   printf("\n time: %f segundos",  (double)(end_t - start_t) / CLOCKS_PER_SEC);
-  free(a);
+
+  free(b);
   return 0;
 }

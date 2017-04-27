@@ -3,7 +3,30 @@
 #include <string.h>
 #include <time.h>
 
+void quicksort(int *A, int len);
 
+void quicksort(int *A, int len)
+{
+  if (len < 2) return;
+
+  int pivot = A[len / 2];
+
+  int i, j;
+  for (i = 0, j = len - 1; ; i++, j--)
+  {
+    while (A[i] < pivot) i++;
+    while (A[j] > pivot) j--;
+
+    if (i >= j) break;
+
+    int temp = A[i];
+    A[i]     = A[j];
+    A[j]     = temp;
+  }
+
+  quicksort(A, i);
+  quicksort(A + i, len - i);
+}
 
 
 int main(int argc, char const *argv[]) {
@@ -33,21 +56,13 @@ int main(int argc, char const *argv[]) {
   for (size_t i = 0; i < largo/6; i++) {
     splitArray[i] = atoi(strndup(a + 6 * i, 6));
   }
- /*
-  char key[2]; //key es de largo 5 para dejar espacio al end of string character
-  int freq;
-  for (int i = 0; i < largo; i+=6) {
-    strncpy(key, a, 6);
-    freq = busqueda(key,a,largo);
-    if(freq > 1)
-      printf("%s - %i\n",key,freq );
-    a+=6;
-  }
-*/
-
+  quicksort(splitArray, largo/6);
   for (size_t i = 0; i < largo/6  ; i++) {
-        printf("%06i\n", splitArray[i]);
+    if (splitArray[i+1] == splitArray[i]) {
+      printf("%06i\n", splitArray[i]);
+    }
   }
+
   end_t = clock();
   printf("\n time: %f segundos",  (double)(end_t - start_t) / CLOCKS_PER_SEC);
   free(a);

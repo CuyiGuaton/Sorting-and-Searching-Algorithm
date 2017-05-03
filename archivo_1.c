@@ -42,7 +42,8 @@ int main(int argc, char const *argv[]) {
   clock_t start_t, end_t, total_t;
   start_t = clock();
 
-/* Desde aq */
+/* Desde aquí empieza el proceso de busqueda del número de 4 digitos que más se repite */
+
   int *b = (int*)calloc(10000, sizeof(int)); // crea un arreglo que va del 0 al 9999
   char key[2]; // key guarda temporalmente un strig de 4 caracteres del arreglo
   int number; // convierte el string obtenido en número

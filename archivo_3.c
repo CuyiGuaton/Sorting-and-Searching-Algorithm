@@ -5,6 +5,7 @@
 
 void quicksort(int *A, int len);
 
+//Algoritmo de ordenamiento quicksort
 void quicksort(int *A, int len)
 {
   if (len < 2) return;
@@ -23,7 +24,6 @@ void quicksort(int *A, int len)
     A[i]     = A[j];
     A[j]     = temp;
   }
-
   quicksort(A, i);
   quicksort(A + i, len - i);
 }
@@ -31,19 +31,19 @@ void quicksort(int *A, int len)
 
 int main(int argc, char const *argv[]) {
 
-  //abre el archivo
+  /* Se Abre el archivo  */
   FILE *inputfile;
-  char c;
+  char c; // guarda cada caracter leido
   int largo = 0;
-  char *a = (char *)malloc(12000*sizeof(char *));
-  inputfile = fopen("archivo_3.tex", "r");
+  char *array = (char *)malloc(12000*sizeof(char *)); // array donde se guardan los elementos del arreglo
+  inputfile = fopen("archivo_1.tex", "r");
   if (inputfile == NULL) {
       fprintf(stderr, "Failed to open the file.\n");
       exit(1);
   }
   if (inputfile) {
       for ( int i=0; (c = getc(inputfile)) != EOF; i++){
-          a[i] = c;
+          array[i] = c;
           //putchar(a[i]);
           largo++;
       }
@@ -54,17 +54,29 @@ int main(int argc, char const *argv[]) {
   start_t = clock();
   int *splitArray = malloc((largo/6)*sizeof(int *));
   for (size_t i = 0; i < largo/6; i++) {
-    splitArray[i] = atoi(strndup(a + 6 * i, 6));
+    splitArray[i] = atoi(strndup(array + 6 * i, 6));
   }
+
+  /* Se ordena el arreglo  */
   quicksort(splitArray, largo/6);
-  for (size_t i = 0; i < largo/6  ; i++) {
-    if (splitArray[i+1] == splitArray[i]) {
-      printf("%06i\n", splitArray[i]);
+
+  /* Se muestran los elementos ordenados y se cuenta cuantas veces se repite*/
+  int freq = 1;
+  int aux = splitArray[0];
+  for (size_t i = 1; i < largo/6  ; i++) {
+    if (splitArray[i] == aux) { // si el elemento se repite su frecuencia aumenta.
+      freq++;
+    }
+    else{ // si el siguiente elemento es distinto al anterior entonces se muestra con las veces que se repitio
+      if (freq > 1)
+          printf("%06i - %i\n", splitArray[i],freq);
+      freq = 1;
+      aux = splitArray[i];
     }
   }
 
   end_t = clock();
   printf("\n time: %f segundos",  (double)(end_t - start_t) / CLOCKS_PER_SEC);
-  free(a);
+  free(array);
   return 0;
 }

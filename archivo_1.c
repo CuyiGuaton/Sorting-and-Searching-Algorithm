@@ -20,7 +20,7 @@ int busqueda(char key[4], char* a, int largo){
 
 int main(int argc, char const *argv[]) {
 
-  //abre el archivo
+/* Se Abre el archivo  */
   FILE *inputfile;
   char c;
   int largo = 0;
@@ -42,40 +42,25 @@ int main(int argc, char const *argv[]) {
   clock_t start_t, end_t, total_t;
   start_t = clock();
 
-  int *b = (int*)calloc(10000, sizeof(int));
-  char key[2]; //key es de largo 5 para dejar espacio al end of string character
-  int number;
-  int mayor = 0;
+/* Desde aq */
+  int *b = (int*)calloc(10000, sizeof(int)); // crea un arreglo que va del 0 al 9999
+  char key[2]; // key guarda temporalmente un strig de 4 caracteres del arreglo
+  int number; // convierte el string obtenido en número
+  int mayor = 0; // para obtener el mayor de los elementos
   for (size_t i = 0; i < largo; i++) {
-    strncpy(key, a, 4);
-    number = atoi(key);
-    b[number] +=1;
-    if(b[number] >= mayor)
+    strncpy(key, a, 4); // se copia un string de largo 4 del largo a a key
+    number = atoi(key); // se tranforma el string obtenido a int
+    b[number] +=1; // se suma aumenta en 1 la posición del arreglo obtenidn.
+    if(b[number] >= mayor) // calcula la mayor frecuencia obtenida en todo el proceso
       mayor = b[number];
-    a+=1;
+    a+=1; // se avanza en 1 el punto del arreglo a, así se va a avanzando de posición en 1 en a.
   }
   for (int i = 0; i < 10000; i++) {
-    if( b[i] == mayor )
+    if( b[i] == mayor ) // se busca el lemento de mayor frecuencia en a.
       printf("b[%i] = %i\n", i,b[i] );
   }
-  /*
-  char key[5]; //key es de largo 5 para dejar espacio al end of string character
-  int freq;
-  int M = 0;
-  int resultFreq[10000]; //Guarda las frecencias de la llave que tenga como indice
-  for (int i = 0; i < 10000; i++) {
-    sprintf(key,"%04i",i); // guarda el deicmal i de 4 digitos en key, se rellena con 0 si tiene menos de 4 digitos
-    freq = busqueda(key,a,largo);
-    if(freq > M)
-      M=freq;
-    resultFreq[i]=freq; //no es necesario guardar la llave ya que será igual a su indice
-  }
-  printf("Los números más repetidos son:\n", M);
-  for (size_t i = 0; i < 10000; i++)
-    if (resultFreq[i] == M)
-      printf("%04i se repite %i veces\n", i,resultFreq[i] );
-*/
-    end_t = clock();
+
+  end_t = clock();
 
   printf("\n time: %f segundos",  (double)(end_t - start_t) / CLOCKS_PER_SEC);
 

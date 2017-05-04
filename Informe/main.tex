@@ -48,17 +48,31 @@ Danilo Abellá}								% Author
 
 \section{Problema 1}
 
-\subsection{Solucion Encontrada}
+\subsection{Solución Encontrada}
 
+La solución que se encontró es que el número que más se repite es 5896 con 16 repitencias.
 
 
 \subsection{Estrategia}
 
+El algoritmo guarda todos los caracteres del archivo tex en un arreglo A y crea otro arreglo B de lleno de ceros que tiene 10000 espacios de memoria y se usa para almacenar las frecuencias que tiene cara número.
+
+En un ciclo, se obtienen los primeros 4 dígitos de A y se usan como indice para acceder al espacio de memoria que corresponde a ese indice y aumenta la frecuencia de aparición de ese número en 1, luego se quita el primer elemento de A aumentando la posición del puntero en 1 y se vuelve al inicio del ciclo. Esto se repite hasta que se recorra A por completo.
+
+
+Además hay otra variable que se encarga de guardar la mayor frecuencia durante el ciclo, para mostrar el número que más repite solo se busca en B el indice que tenga esa frecuencia.
+
 \subsection{Justificación}
 
+Se utiliza este método por su efectividad, en lo que es la memoria, el arreglo A es de largo n y el arreglo B siempre es constante ya que siempre tendrá 10000 espacios de memoria que son los necesarios para guardar la frecuencia de los números del 0 al 9999, por lo la memoria total utilizada es de n + 1000, por lo que es de orden O(n).
+
+%Esto está como el pico, la lógica está mal, se me ocurrira algo
+%En lo que es la complejidad del algoritmo, es de orden O(n), esto es debido a que en el ciclo de aumentar la frecuencia de B dado un indice obtenido de A su operación básica se repite n veces, y en el ciclo de buscar el mayor número la operación comprar se repite 10000 veces, por lo que se tiene que la complejidad es n + 10000, orden O(n).
+
+\newpage
 \section{Problema 2}
 
-\subsection{Solucion Encontrada}
+\subsection{Solución Encontrada}
 
 \subsection{Estrategia}
 
@@ -66,7 +80,7 @@ Danilo Abellá}								% Author
 
 \section{Problema 3}
 
-\subsection{Solucion Encontrada}
+\subsection{Solución Encontrada}
 
 \subsection{Estrategia}
 

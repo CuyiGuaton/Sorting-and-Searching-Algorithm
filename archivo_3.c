@@ -36,7 +36,7 @@ int main(int argc, char const *argv[]) {
   char c; // guarda cada caracter leido
   int largo = 0;
   char *array = (char *)malloc(12000*sizeof(char *)); // array donde se guardan los elementos del arreglo
-  inputfile = fopen("archivo_1.tex", "r");
+  inputfile = fopen("archivo_3.tex", "r");
   if (inputfile == NULL) {
       fprintf(stderr, "Failed to open the file.\n");
       exit(1);

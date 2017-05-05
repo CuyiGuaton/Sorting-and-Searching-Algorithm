@@ -71,13 +71,17 @@ int main(int argc, char const *argv[]) {
 
 	int cont=1;
 
+	printf("\nSecuencia \t	Frecuencia.\n");
+	printf("\nRepetida\n");
+
 	temp=0;
-	for (i = 0; i < largo-4; i++) 
+	for (i = 0; i < largo-3; i++) 
 	{
 
 		if(hexarray[i]!=temp && cont>1 )
 		{	
-			printf("\nLa secuencia: %04X\n se repite %i veces.", hexarray[i],cont );
+//			printf("n%04X-"/*"\n%04X \t %i"*/, hexarray[i-1]/*,cont */);	// Muestra lisatdo de frecuencias que se repiten (para informe)
+			printf("\n%04X	\t	%i", hexarray[i-1],cont );
 			cont=1;
 		
 		}

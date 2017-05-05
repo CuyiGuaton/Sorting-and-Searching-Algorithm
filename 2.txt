@@ -8342,997 +8342,505 @@ hexarray[8332] = FFEA
 Cantidad de Repeticiones
 
 
-La secuencia: 0008
- se repite 2 veces.
-La secuencia: 006B
- se repite 2 veces.
-La secuencia: 00BC
- se repite 2 veces.
-La secuencia: 00E0
- se repite 2 veces.
-La secuencia: 011A
- se repite 2 veces.
-La secuencia: 0127
- se repite 3 veces.
-La secuencia: 0153
- se repite 2 veces.
-La secuencia: 01AD
- se repite 2 veces.
-La secuencia: 01B7
- se repite 2 veces.
-La secuencia: 03A3
- se repite 2 veces.
-La secuencia: 0406
- se repite 2 veces.
-La secuencia: 04C5
- se repite 2 veces.
-La secuencia: 056D
- se repite 2 veces.
-La secuencia: 058A
- se repite 2 veces.
-La secuencia: 0622
- se repite 2 veces.
-La secuencia: 0737
- se repite 2 veces.
-La secuencia: 07F9
- se repite 2 veces.
-La secuencia: 0816
- se repite 2 veces.
-La secuencia: 0860
- se repite 2 veces.
-La secuencia: 08CD
- se repite 2 veces.
-La secuencia: 0A16
- se repite 2 veces.
-La secuencia: 0A48
- se repite 2 veces.
-La secuencia: 0BAC
- se repite 2 veces.
-La secuencia: 0BD0
- se repite 2 veces.
-La secuencia: 0DC8
- se repite 2 veces.
-La secuencia: 0DF8
- se repite 2 veces.
-La secuencia: 0F40
- se repite 2 veces.
-La secuencia: 101A
- se repite 2 veces.
-La secuencia: 106D
- se repite 2 veces.
-La secuencia: 10B6
- se repite 2 veces.
-La secuencia: 1135
- se repite 2 veces.
-La secuencia: 1159
- se repite 2 veces.
-La secuencia: 115A
- se repite 2 veces.
-La secuencia: 118E
- se repite 2 veces.
-La secuencia: 11A8
- se repite 2 veces.
-La secuencia: 12A1
- se repite 3 veces.
-La secuencia: 12B6
- se repite 2 veces.
-La secuencia: 1310
- se repite 2 veces.
-La secuencia: 133C
- se repite 2 veces.
-La secuencia: 13E3
- se repite 2 veces.
-La secuencia: 1438
- se repite 2 veces.
-La secuencia: 146B
- se repite 2 veces.
-La secuencia: 14CD
- se repite 2 veces.
-La secuencia: 14D4
- se repite 2 veces.
-La secuencia: 14E5
- se repite 2 veces.
-La secuencia: 14E6
- se repite 3 veces.
-La secuencia: 153E
- se repite 2 veces.
-La secuencia: 154A
- se repite 2 veces.
-La secuencia: 15D9
- se repite 2 veces.
-La secuencia: 1618
- se repite 2 veces.
-La secuencia: 1634
- se repite 2 veces.
-La secuencia: 1640
- se repite 2 veces.
-La secuencia: 16F2
- se repite 2 veces.
-La secuencia: 1814
- se repite 2 veces.
-La secuencia: 183E
- se repite 2 veces.
-La secuencia: 1860
- se repite 2 veces.
-La secuencia: 18B8
- se repite 2 veces.
-La secuencia: 1939
- se repite 2 veces.
-La secuencia: 1968
- se repite 2 veces.
-La secuencia: 19F1
- se repite 2 veces.
-La secuencia: 1BD9
- se repite 2 veces.
-La secuencia: 1C36
- se repite 2 veces.
-La secuencia: 1C3A
- se repite 2 veces.
-La secuencia: 1C94
- se repite 2 veces.
-La secuencia: 1CE7
- se repite 2 veces.
-La secuencia: 1D05
- se repite 2 veces.
-La secuencia: 1D41
- se repite 2 veces.
-La secuencia: 1DC9
- se repite 2 veces.
-La secuencia: 1DE5
- se repite 2 veces.
-La secuencia: 1E15
- se repite 2 veces.
-La secuencia: 1E67
- se repite 2 veces.
-La secuencia: 1E7B
- se repite 2 veces.
-La secuencia: 1E8C
- se repite 2 veces.
-La secuencia: 1EBD
- se repite 2 veces.
-La secuencia: 1EC8
- se repite 2 veces.
-La secuencia: 1F5F
- se repite 2 veces.
-La secuencia: 1F95
- se repite 2 veces.
-La secuencia: 1F9F
- se repite 2 veces.
-La secuencia: 203E
- se repite 2 veces.
-La secuencia: 20B4
- se repite 2 veces.
-La secuencia: 20CA
- se repite 2 veces.
-La secuencia: 211A
- se repite 2 veces.
-La secuencia: 21EC
- se repite 2 veces.
-La secuencia: 22B6
- se repite 2 veces.
-La secuencia: 22B8
- se repite 2 veces.
-La secuencia: 2464
- se repite 2 veces.
-La secuencia: 2469
- se repite 2 veces.
-La secuencia: 2471
- se repite 2 veces.
-La secuencia: 2553
- se repite 2 veces.
-La secuencia: 25BF
- se repite 2 veces.
-La secuencia: 2638
- se repite 2 veces.
-La secuencia: 26A2
- se repite 2 veces.
-La secuencia: 279A
- se repite 2 veces.
-La secuencia: 27B0
- se repite 2 veces.
-La secuencia: 2826
- se repite 2 veces.
-La secuencia: 2851
- se repite 2 veces.
-La secuencia: 2858
- se repite 2 veces.
-La secuencia: 285B
- se repite 2 veces.
-La secuencia: 28AB
- se repite 2 veces.
-La secuencia: 28B1
- se repite 2 veces.
-La secuencia: 299F
- se repite 2 veces.
-La secuencia: 29A0
- se repite 2 veces.
-La secuencia: 2AB4
- se repite 2 veces.
-La secuencia: 2AE0
- se repite 2 veces.
-La secuencia: 2B8B
- se repite 2 veces.
-La secuencia: 2BA1
- se repite 2 veces.
-La secuencia: 2D4F
- se repite 2 veces.
-La secuencia: 2D5D
- se repite 2 veces.
-La secuencia: 2DFE
- se repite 2 veces.
-La secuencia: 2E1C
- se repite 2 veces.
-La secuencia: 2E30
- se repite 2 veces.
-La secuencia: 2EA7
- se repite 2 veces.
-La secuencia: 2EB6
- se repite 2 veces.
-La secuencia: 2EF3
- se repite 2 veces.
-La secuencia: 2EF8
- se repite 2 veces.
-La secuencia: 2F38
- se repite 2 veces.
-La secuencia: 30E8
- se repite 2 veces.
-La secuencia: 3156
- se repite 2 veces.
-La secuencia: 3197
- se repite 2 veces.
-La secuencia: 31F6
- se repite 2 veces.
-La secuencia: 320A
- se repite 3 veces.
-La secuencia: 3215
- se repite 2 veces.
-La secuencia: 33A6
- se repite 2 veces.
-La secuencia: 33E9
- se repite 2 veces.
-La secuencia: 361C
- se repite 2 veces.
-La secuencia: 362A
- se repite 2 veces.
-La secuencia: 369C
- se repite 2 veces.
-La secuencia: 3724
- se repite 2 veces.
-La secuencia: 3821
- se repite 2 veces.
-La secuencia: 382E
- se repite 2 veces.
-La secuencia: 38E6
- se repite 2 veces.
-La secuencia: 393A
- se repite 2 veces.
-La secuencia: 3972
- se repite 2 veces.
-La secuencia: 3A3E
- se repite 2 veces.
-La secuencia: 3AE4
- se repite 2 veces.
-La secuencia: 3B17
- se repite 2 veces.
-La secuencia: 3B4C
- se repite 2 veces.
-La secuencia: 3C73
- se repite 2 veces.
-La secuencia: 3D6C
- se repite 2 veces.
-La secuencia: 3D7D
- se repite 2 veces.
-La secuencia: 3E82
- se repite 2 veces.
-La secuencia: 3E8D
- se repite 2 veces.
-La secuencia: 3FDC
- se repite 2 veces.
-La secuencia: 401A
- se repite 2 veces.
-La secuencia: 4179
- se repite 2 veces.
-La secuencia: 4187
- se repite 2 veces.
-La secuencia: 42F4
- se repite 2 veces.
-La secuencia: 42F6
- se repite 2 veces.
-La secuencia: 430E
- se repite 2 veces.
-La secuencia: 432A
- se repite 3 veces.
-La secuencia: 442F
- se repite 2 veces.
-La secuencia: 4577
- se repite 2 veces.
-La secuencia: 459C
- se repite 2 veces.
-La secuencia: 462B
- se repite 2 veces.
-La secuencia: 46E6
- se repite 2 veces.
-La secuencia: 46FC
- se repite 2 veces.
-La secuencia: 4701
- se repite 2 veces.
-La secuencia: 479D
- se repite 2 veces.
-La secuencia: 489D
- se repite 2 veces.
-La secuencia: 48F7
- se repite 2 veces.
-La secuencia: 48FF
- se repite 2 veces.
-La secuencia: 49F5
- se repite 2 veces.
-La secuencia: 4A50
- se repite 2 veces.
-La secuencia: 4A9E
- se repite 2 veces.
-La secuencia: 4B2F
- se repite 2 veces.
-La secuencia: 4B55
- se repite 2 veces.
-La secuencia: 4BA9
- se repite 2 veces.
-La secuencia: 4BFE
- se repite 2 veces.
-La secuencia: 4CE0
- se repite 2 veces.
-La secuencia: 4E4C
- se repite 2 veces.
-La secuencia: 4E73
- se repite 2 veces.
-La secuencia: 501E
- se repite 3 veces.
-La secuencia: 5065
- se repite 2 veces.
-La secuencia: 5095
- se repite 2 veces.
-La secuencia: 5138
- se repite 2 veces.
-La secuencia: 5266
- se repite 2 veces.
-La secuencia: 529A
- se repite 2 veces.
-La secuencia: 52E4
- se repite 2 veces.
-La secuencia: 52F5
- se repite 2 veces.
-La secuencia: 5331
- se repite 2 veces.
-La secuencia: 5442
- se repite 2 veces.
-La secuencia: 547A
- se repite 2 veces.
-La secuencia: 5553
- se repite 2 veces.
-La secuencia: 55C0
- se repite 2 veces.
-La secuencia: 5605
- se repite 2 veces.
-La secuencia: 5606
- se repite 2 veces.
-La secuencia: 5634
- se repite 2 veces.
-La secuencia: 5670
- se repite 2 veces.
-La secuencia: 56F1
- se repite 2 veces.
-La secuencia: 574A
- se repite 3 veces.
-La secuencia: 577B
- se repite 2 veces.
-La secuencia: 5871
- se repite 2 veces.
-La secuencia: 588C
- se repite 2 veces.
-La secuencia: 594B
- se repite 2 veces.
-La secuencia: 59DF
- se repite 2 veces.
-La secuencia: 5AB9
- se repite 2 veces.
-La secuencia: 5BE7
- se repite 2 veces.
-La secuencia: 5C05
- se repite 2 veces.
-La secuencia: 5CBF
- se repite 2 veces.
-La secuencia: 5CFE
- se repite 3 veces.
-La secuencia: 5D90
- se repite 2 veces.
-La secuencia: 5EEE
- se repite 2 veces.
-La secuencia: 5F05
- se repite 2 veces.
-La secuencia: 5F95
- se repite 2 veces.
-La secuencia: 5FA0
- se repite 2 veces.
-La secuencia: 5FEF
- se repite 2 veces.
-La secuencia: 602D
- se repite 2 veces.
-La secuencia: 6085
- se repite 2 veces.
-La secuencia: 60A0
- se repite 2 veces.
-La secuencia: 6132
- se repite 2 veces.
-La secuencia: 6150
- se repite 2 veces.
-La secuencia: 6194
- se repite 2 veces.
-La secuencia: 6287
- se repite 3 veces.
-La secuencia: 6295
- se repite 2 veces.
-La secuencia: 62ED
- se repite 2 veces.
-La secuencia: 636C
- se repite 2 veces.
-La secuencia: 638D
- se repite 2 veces.
-La secuencia: 662D
- se repite 3 veces.
-La secuencia: 6638
- se repite 2 veces.
-La secuencia: 664F
- se repite 2 veces.
-La secuencia: 66A2
- se repite 2 veces.
-La secuencia: 67C7
- se repite 2 veces.
-La secuencia: 6847
- se repite 2 veces.
-La secuencia: 699A
- se repite 2 veces.
-La secuencia: 6A37
- se repite 2 veces.
-La secuencia: 6A3A
- se repite 2 veces.
-La secuencia: 6A70
- se repite 2 veces.
-La secuencia: 6B2E
- se repite 2 veces.
-La secuencia: 6B71
- se repite 2 veces.
-La secuencia: 6E00
- se repite 2 veces.
-La secuencia: 6E34
- se repite 2 veces.
-La secuencia: 6E39
- se repite 2 veces.
-La secuencia: 6EAB
- se repite 2 veces.
-La secuencia: 6F63
- se repite 2 veces.
-La secuencia: 6FB5
- se repite 2 veces.
-La secuencia: 6FFE
- se repite 2 veces.
-La secuencia: 7068
- se repite 2 veces.
-La secuencia: 708C
- se repite 2 veces.
-La secuencia: 7169
- se repite 2 veces.
-La secuencia: 721F
- se repite 2 veces.
-La secuencia: 725A
- se repite 2 veces.
-La secuencia: 74E8
- se repite 2 veces.
-La secuencia: 7513
- se repite 2 veces.
-La secuencia: 7561
- se repite 2 veces.
-La secuencia: 75D8
- se repite 2 veces.
-La secuencia: 763B
- se repite 2 veces.
-La secuencia: 771B
- se repite 2 veces.
-La secuencia: 7722
- se repite 2 veces.
-La secuencia: 7737
- se repite 2 veces.
-La secuencia: 7820
- se repite 2 veces.
-La secuencia: 78DF
- se repite 2 veces.
-La secuencia: 7967
- se repite 2 veces.
-La secuencia: 7A63
- se repite 2 veces.
-La secuencia: 7B94
- se repite 2 veces.
-La secuencia: 7BB7
- se repite 2 veces.
-La secuencia: 7CD3
- se repite 2 veces.
-La secuencia: 7CDE
- se repite 2 veces.
-La secuencia: 7DA1
- se repite 2 veces.
-La secuencia: 7DAD
- se repite 2 veces.
-La secuencia: 7DD5
- se repite 2 veces.
-La secuencia: 7E6F
- se repite 2 veces.
-La secuencia: 801F
- se repite 2 veces.
-La secuencia: 80E4
- se repite 2 veces.
-La secuencia: 8129
- se repite 2 veces.
-La secuencia: 812D
- se repite 2 veces.
-La secuencia: 8175
- se repite 2 veces.
-La secuencia: 830D
- se repite 2 veces.
-La secuencia: 8353
- se repite 2 veces.
-La secuencia: 83B8
- se repite 2 veces.
-La secuencia: 84AF
- se repite 2 veces.
-La secuencia: 8509
- se repite 2 veces.
-La secuencia: 8514
- se repite 2 veces.
-La secuencia: 8562
- se repite 2 veces.
-La secuencia: 85A1
- se repite 2 veces.
-La secuencia: 85B2
- se repite 2 veces.
-La secuencia: 85F2
- se repite 2 veces.
-La secuencia: 86EE
- se repite 2 veces.
-La secuencia: 8749
- se repite 2 veces.
-La secuencia: 883A
- se repite 2 veces.
-La secuencia: 8991
- se repite 2 veces.
-La secuencia: 8A1F
- se repite 2 veces.
-La secuencia: 8B1E
- se repite 2 veces.
-La secuencia: 8B51
- se repite 2 veces.
-La secuencia: 8D1B
- se repite 2 veces.
-La secuencia: 8D56
- se repite 2 veces.
-La secuencia: 8DC0
- se repite 3 veces.
-La secuencia: 8F54
- se repite 2 veces.
-La secuencia: 8FD3
- se repite 2 veces.
-La secuencia: 904C
- se repite 2 veces.
-La secuencia: 9251
- se repite 2 veces.
-La secuencia: 931E
- se repite 2 veces.
-La secuencia: 937E
- se repite 2 veces.
-La secuencia: 93E8
- se repite 2 veces.
-La secuencia: 93E9
- se repite 2 veces.
-La secuencia: 94C2
- se repite 3 veces.
-La secuencia: 94C3
- se repite 2 veces.
-La secuencia: 9598
- se repite 2 veces.
-La secuencia: 9679
- se repite 2 veces.
-La secuencia: 96A4
- se repite 2 veces.
-La secuencia: 9809
- se repite 2 veces.
-La secuencia: 991E
- se repite 2 veces.
-La secuencia: 9940
- se repite 2 veces.
-La secuencia: 9A46
- se repite 2 veces.
-La secuencia: 9A58
- se repite 2 veces.
-La secuencia: 9B07
- se repite 2 veces.
-La secuencia: 9B09
- se repite 2 veces.
-La secuencia: 9B74
- se repite 2 veces.
-La secuencia: 9C2C
- se repite 2 veces.
-La secuencia: 9C61
- se repite 2 veces.
-La secuencia: 9D7A
- se repite 2 veces.
-La secuencia: 9DE7
- se repite 2 veces.
-La secuencia: 9E1D
- se repite 2 veces.
-La secuencia: 9E9E
- se repite 2 veces.
-La secuencia: 9F28
- se repite 2 veces.
-La secuencia: 9F8F
- se repite 2 veces.
-La secuencia: 9FB7
- se repite 2 veces.
-La secuencia: A0C5
- se repite 2 veces.
-La secuencia: A0E7
- se repite 2 veces.
-La secuencia: A140
- se repite 2 veces.
-La secuencia: A154
- se repite 2 veces.
-La secuencia: A168
- se repite 2 veces.
-La secuencia: A1DA
- se repite 2 veces.
-La secuencia: A28C
- se repite 2 veces.
-La secuencia: A325
- se repite 2 veces.
-La secuencia: A367
- se repite 2 veces.
-La secuencia: A380
- se repite 2 veces.
-La secuencia: A3CC
- se repite 2 veces.
-La secuencia: A479
- se repite 2 veces.
-La secuencia: A58D
- se repite 2 veces.
-La secuencia: A670
- se repite 2 veces.
-La secuencia: A7AA
- se repite 2 veces.
-La secuencia: A84F
- se repite 2 veces.
-La secuencia: A99A
- se repite 2 veces.
-La secuencia: A9C5
- se repite 2 veces.
-La secuencia: ABF2
- se repite 2 veces.
-La secuencia: AC15
- se repite 2 veces.
-La secuencia: AC77
- se repite 2 veces.
-La secuencia: ACEA
- se repite 2 veces.
-La secuencia: ADA7
- se repite 3 veces.
-La secuencia: AE59
- se repite 2 veces.
-La secuencia: AFDE
- se repite 2 veces.
-La secuencia: B02D
- se repite 2 veces.
-La secuencia: B03D
- se repite 2 veces.
-La secuencia: B161
- se repite 2 veces.
-La secuencia: B1DD
- se repite 2 veces.
-La secuencia: B224
- se repite 2 veces.
-La secuencia: B26D
- se repite 3 veces.
-La secuencia: B27B
- se repite 2 veces.
-La secuencia: B285
- se repite 2 veces.
-La secuencia: B2A0
- se repite 2 veces.
-La secuencia: B2F8
- se repite 2 veces.
-La secuencia: B33A
- se repite 2 veces.
-La secuencia: B391
- se repite 2 veces.
-La secuencia: B3B4
- se repite 2 veces.
-La secuencia: B3F3
- se repite 2 veces.
-La secuencia: B472
- se repite 2 veces.
-La secuencia: B519
- se repite 2 veces.
-La secuencia: B55A
- se repite 2 veces.
-La secuencia: B60A
- se repite 2 veces.
-La secuencia: B6A7
- se repite 2 veces.
-La secuencia: B6C4
- se repite 2 veces.
-La secuencia: B77C
- se repite 2 veces.
-La secuencia: B7DA
- se repite 2 veces.
-La secuencia: B812
- se repite 2 veces.
-La secuencia: B81D
- se repite 2 veces.
-La secuencia: B823
- se repite 2 veces.
-La secuencia: B8D2
- se repite 2 veces.
-La secuencia: B941
- se repite 2 veces.
-La secuencia: B9E1
- se repite 2 veces.
-La secuencia: BA38
- se repite 2 veces.
-La secuencia: BA9B
- se repite 2 veces.
-La secuencia: BA9C
- se repite 3 veces.
-La secuencia: BB3C
- se repite 2 veces.
-La secuencia: BB57
- se repite 2 veces.
-La secuencia: BBCB
- se repite 2 veces.
-La secuencia: BC31
- se repite 2 veces.
-La secuencia: BC9F
- se repite 2 veces.
-La secuencia: BD32
- se repite 2 veces.
-La secuencia: BE46
- se repite 2 veces.
-La secuencia: BF05
- se repite 2 veces.
-La secuencia: BF2E
- se repite 2 veces.
-La secuencia: C120
- se repite 2 veces.
-La secuencia: C25C
- se repite 2 veces.
-La secuencia: C279
- se repite 3 veces.
-La secuencia: C2DD
- se repite 2 veces.
-La secuencia: C2FB
- se repite 2 veces.
-La secuencia: C376
- se repite 2 veces.
-La secuencia: C4E3
- se repite 2 veces.
-La secuencia: C516
- se repite 2 veces.
-La secuencia: C6ED
- se repite 2 veces.
-La secuencia: C904
- se repite 2 veces.
-La secuencia: C905
- se repite 2 veces.
-La secuencia: C952
- se repite 2 veces.
-La secuencia: C9E4
- se repite 2 veces.
-La secuencia: CA93
- se repite 2 veces.
-La secuencia: CB08
- se repite 2 veces.
-La secuencia: CBF9
- se repite 2 veces.
-La secuencia: CCCD
- se repite 2 veces.
-La secuencia: CE1B
- se repite 2 veces.
-La secuencia: CE78
- se repite 2 veces.
-La secuencia: CF16
- se repite 2 veces.
-La secuencia: D04D
- se repite 2 veces.
-La secuencia: D1B6
- se repite 2 veces.
-La secuencia: D1D0
- se repite 2 veces.
-La secuencia: D1D3
- se repite 2 veces.
-La secuencia: D539
- se repite 2 veces.
-La secuencia: D588
- se repite 2 veces.
-La secuencia: D660
- se repite 2 veces.
-La secuencia: D6A2
- se repite 2 veces.
-La secuencia: D6EF
- se repite 2 veces.
-La secuencia: D84A
- se repite 2 veces.
-La secuencia: D902
- se repite 2 veces.
-La secuencia: D916
- se repite 2 veces.
-La secuencia: D997
- se repite 2 veces.
-La secuencia: D9CA
- se repite 2 veces.
-La secuencia: DA36
- se repite 2 veces.
-La secuencia: DAF0
- se repite 2 veces.
-La secuencia: DC14
- se repite 2 veces.
-La secuencia: DC20
- se repite 2 veces.
-La secuencia: DC26
- se repite 2 veces.
-La secuencia: DD58
- se repite 2 veces.
-La secuencia: DDFD
- se repite 2 veces.
-La secuencia: DF0B
- se repite 2 veces.
-La secuencia: DFA3
- se repite 2 veces.
-La secuencia: DFB5
- se repite 2 veces.
-La secuencia: DFFD
- se repite 2 veces.
-La secuencia: E045
- se repite 2 veces.
-La secuencia: E0E8
- se repite 2 veces.
-La secuencia: E151
- se repite 2 veces.
-La secuencia: E163
- se repite 2 veces.
-La secuencia: E173
- se repite 2 veces.
-La secuencia: E1BB
- se repite 2 veces.
-La secuencia: E1E9
- se repite 2 veces.
-La secuencia: E1FF
- se repite 2 veces.
-La secuencia: E312
- se repite 2 veces.
-La secuencia: E3A5
- se repite 2 veces.
-La secuencia: E3D3
- se repite 2 veces.
-La secuencia: E3F1
- se repite 2 veces.
-La secuencia: E4CB
- se repite 2 veces.
-La secuencia: E4DD
- se repite 2 veces.
-La secuencia: E598
- se repite 2 veces.
-La secuencia: E613
- se repite 2 veces.
-La secuencia: E648
- se repite 2 veces.
-La secuencia: E6A3
- se repite 2 veces.
-La secuencia: E6B0
- se repite 2 veces.
-La secuencia: E6C5
- se repite 2 veces.
-La secuencia: E6C6
- se repite 2 veces.
-La secuencia: E79C
- se repite 2 veces.
-La secuencia: E8AA
- se repite 2 veces.
-La secuencia: E8B0
- se repite 2 veces.
-La secuencia: E909
- se repite 2 veces.
-La secuencia: E9E0
- se repite 2 veces.
-La secuencia: EB27
- se repite 2 veces.
-La secuencia: EB69
- se repite 2 veces.
-La secuencia: EC6F
- se repite 2 veces.
-La secuencia: ECCE
- se repite 2 veces.
-La secuencia: ED0B
- se repite 2 veces.
-La secuencia: ED97
- se repite 2 veces.
-La secuencia: EE06
- se repite 2 veces.
-La secuencia: EE39
- se repite 2 veces.
-La secuencia: EE6B
- se repite 2 veces.
-La secuencia: EECE
- se repite 2 veces.
-La secuencia: EF7D
- se repite 2 veces.
-La secuencia: EF7E
- se repite 2 veces.
-La secuencia: F017
- se repite 2 veces.
-La secuencia: F019
- se repite 2 veces.
-La secuencia: F01E
- se repite 2 veces.
-La secuencia: F054
- se repite 2 veces.
-La secuencia: F081
- se repite 2 veces.
-La secuencia: F0B6
- se repite 2 veces.
-La secuencia: F0BE
- se repite 2 veces.
-La secuencia: F0F4
- se repite 2 veces.
-La secuencia: F111
- se repite 2 veces.
-La secuencia: F19C
- se repite 2 veces.
-La secuencia: F2BC
- se repite 2 veces.
-La secuencia: F453
- se repite 2 veces.
-La secuencia: F5F0
- se repite 2 veces.
-La secuencia: F70F
- se repite 2 veces.
-La secuencia: F728
- se repite 2 veces.
-La secuencia: F731
- se repite 2 veces.
-La secuencia: F74E
- se repite 2 veces.
-La secuencia: F752
- se repite 2 veces.
-La secuencia: F7DD
- se repite 2 veces.
-La secuencia: F848
- se repite 2 veces.
-La secuencia: F8A2
- se repite 2 veces.
-La secuencia: F8E8
- se repite 2 veces.
-La secuencia: F8EE
- se repite 2 veces.
-La secuencia: F95E
- se repite 2 veces.
-La secuencia: F972
- se repite 2 veces.
-La secuencia: FA63
- se repite 2 veces.
-La secuencia: FADF
- se repite 2 veces.
-La secuencia: FBCE
- se repite 2 veces.
-La secuencia: FD00
- se repite 2 veces.
-La secuencia: FD37
- se repite 2 veces.
-La secuencia: FE71
- se repite 2 veces.
-La secuencia: FFA3
- se repite 2 veces.
-La secuencia: FFAE
- se repite 2 veces.
+Secuencia 		Frecuencia.
+
+Repetida
+
+0006			2
+0068			2
+00BB			2
+00DF			2
+0115			2
+011A			3
+013C			2
+01AB			2
+01AD			2
+03A1			2
+0402			2
+04C0			2
+056A			2
+0584			2
+061B			2
+0734			2
+07EF			2
+0810			2
+085F			2
+08BA			2
+0A12			2
+0A47			2
+0BA6			2
+0BCB			2
+0DC7			2
+0DF0			2
+0F28			2
+1018			2
+105D			2
+10B3			2
+1133			2
+1156			2
+1159			2
+1183			2
+11A1			2
+1290			3
+12B4			2
+12DC			2
+133A			2
+13E0			2
+1421			2
+1462			2
+14BA			2
+14CD			2
+14D9			2
+14E5			3
+153C			2
+1548			2
+15D6			2
+1612			2
+1625			2
+1636			2
+16DF			2
+1811			2
+183B			2
+1856			2
+18B1			2
+1936			2
+1948			2
+19EE			2
+1BD3			2
+1C20			2
+1C36			2
+1C90			2
+1CE6			2
+1D00			2
+1D39			2
+1DC2			2
+1DDF			2
+1E0A			2
+1E63			2
+1E79			2
+1E8A			2
+1EAF			2
+1EBD			2
+1F2E			2
+1F6C			2
+1F9B			2
+202E			2
+20AD			2
+20C8			2
+2105			2
+21E7			2
+2299			2
+22B6			2
+2463			2
+2466			2
+2469			2
+2547			2
+25BD			2
+2623			2
+2690			2
+2796			2
+27A1			2
+2821			2
+2850			2
+2851			2
+2858			2
+2895			2
+28AB			2
+299B			2
+299F			2
+2AB3			2
+2ADA			2
+2B89			2
+2B8B			2
+2D38			2
+2D51			2
+2DFD			2
+2E13			2
+2E28			2
+2E9C			2
+2EB3			2
+2EF1			2
+2EF6			2
+2F32			2
+30DC			2
+314E			2
+317C			2
+31EA			2
+31F6			3
+320F			2
+33A3			2
+33E8			2
+3604			2
+361D			2
+369B			2
+3707			2
+3820			2
+3822			2
+38D8			2
+392E			2
+396A			2
+3A3A			2
+3AE1			2
+3B12			2
+3B3E			2
+3C6F			2
+3D5A			2
+3D7C			2
+3E81			2
+3E89			2
+3FD6			2
+4000			2
+4152			2
+4183			2
+42EF			2
+42F5			2
+42F6			2
+4324			3
+442E			2
+4574			2
+4595			2
+4614			2
+46DB			2
+46F6			2
+46FC			2
+479B			2
+4898			2
+48E4			2
+48FD			2
+49F1			2
+4A41			2
+4A99			2
+4B27			2
+4B47			2
+4BA3			2
+4BFB			2
+4CDD			2
+4E3D			2
+4E6C			2
+501A			3
+5056			2
+5094			2
+5133			2
+525F			2
+5282			2
+52DF			2
+52EC			2
+532E			2
+542F			2
+5470			2
+5546			2
+55AB			2
+55FD			2
+5605			2
+562E			2
+5664			2
+56E1			2
+5748			3
+5770			2
+586E			2
+5882			2
+593E			2
+59CB			2
+5AA5			2
+5BDD			2
+5C02			2
+5CB0			2
+5CFA			3
+5D88			2
+5EE3			2
+5F01			2
+5F79			2
+5F95			2
+5FEC			2
+602A			2
+6078			2
+6085			2
+612A			2
+614E			2
+618B			2
+6282			3
+6293			2
+62E9			2
+6369			2
+6382			2
+6629			3
+6636			2
+6645			2
+66A0			2
+67BC			2
+6842			2
+698D			2
+6A36			2
+6A37			2
+6A51			2
+6B2A			2
+6B6A			2
+6DFF			2
+6E2F			2
+6E37			2
+6EA6			2
+6F47			2
+6FB2			2
+6FF3			2
+7061			2
+7080			2
+7157			2
+7216			2
+724D			2
+74E6			2
+7509			2
+7560			2
+75B1			2
+7634			2
+7711			2
+771F			2
+7732			2
+7808			2
+78C1			2
+7960			2
+7A58			2
+7B8E			2
+7B9F			2
+7CCF			2
+7CD3			2
+7D9C			2
+7DA8			2
+7DD1			2
+7E6A			2
+800B			2
+80BB			2
+8128			2
+8129			2
+8162			2
+82EF			2
+8346			2
+83B5			2
+84A5			2
+8507			2
+8509			2
+8556			2
+858E			2
+85A3			2
+85F0			2
+86E3			2
+8740			2
+8839			2
+8986			2
+8A0B			2
+8B1D			2
+8B38			2
+8D01			2
+8D40			2
+8DB3			3
+8F48			2
+8FD2			2
+9045			2
+924A			2
+9317			2
+9361			2
+93D5			2
+93E8			2
+94B7			3
+94C2			2
+9586			2
+9662			2
+96A2			2
+9802			2
+991B			2
+993B			2
+9A45			2
+9A53			2
+9B04			2
+9B07			2
+9B6F			2
+9C2B			2
+9C60			2
+9D65			2
+9DCB			2
+9E15			2
+9E86			2
+9F25			2
+9F8D			2
+9FB4			2
+A0C1			2
+A0E2			2
+A124			2
+A14D			2
+A161			2
+A1D4			2
+A285			2
+A323			2
+A366			2
+A37F			2
+A3CB			2
+A476			2
+A58C			2
+A65C			2
+A7A9			2
+A835			2
+A995			2
+A9BE			2
+ABEA			2
+ABFC			2
+AC71			2
+ACE1			2
+ADA3			3
+AE4D			2
+AFD6			2
+B023			2
+B03A			2
+B155			2
+B1DC			2
+B21A			2
+B266			3
+B277			2
+B27B			2
+B285			2
+B2F3			2
+B331			2
+B38E			2
+B3B1			2
+B3EE			2
+B457			2
+B513			2
+B557			2
+B5FA			2
+B6A3			2
+B6C1			2
+B750			2
+B7D9			2
+B7E3			2
+B812			2
+B820			2
+B8B5			2
+B93D			2
+B9D3			2
+BA33			2
+BA99			2
+BA9B			3
+BB3A			2
+BB56			2
+BBCA			2
+BC2A			2
+BC9B			2
+BD31			2
+BE32			2
+BF00			2
+BF2C			2
+C115			2
+C25A			2
+C277			3
+C2DA			2
+C2DD			2
+C372			2
+C4BF			2
+C511			2
+C6E8			2
+C902			2
+C904			2
+C946			2
+C9E0			2
+CA92			2
+CB06			2
+CBEE			2
+CCC8			2
+CE0B			2
+CE77			2
+CF0B			2
+D04C			2
+D1B5			2
+D1CF			2
+D1D0			2
+D519			2
+D586			2
+D65F			2
+D6A1			2
+D6EB			2
+D83D			2
+D8FE			2
+D915			2
+D993			2
+D9B9			2
+DA2F			2
+DAE9			2
+DC09			2
+DC14			2
+DC25			2
+DD57			2
+DDF8			2
+DF01			2
+DFA1			2
+DFA6			2
+DFF8			2
+E03A			2
+E0E1			2
+E14E			2
+E153			2
+E169			2
+E1B0			2
+E1E7			2
+E1F9			2
+E305			2
+E39F			2
+E3D0			2
+E3D3			2
+E4C6			2
+E4D6			2
+E593			2
+E60B			2
+E647			2
+E69F			2
+E6AD			2
+E6BA			2
+E6C5			2
+E799			2
+E8A3			2
+E8AE			2
+E8EF			2
+E9DB			2
+EB26			2
+EB65			2
+EC6E			2
+ECC8			2
+ECF1			2
+ED93			2
+EDFA			2
+EE30			2
+EE60			2
+EECC			2
+EF6A			2
+EF7D			2
+F011			2
+F017			2
+F01C			2
+F050			2
+F06A			2
+F092			2
+F0BD			2
+F0CA			2
+F0F7			2
+F19B			2
+F2B8			2
+F442			2
+F5EB			2
+F708			2
+F724			2
+F728			2
+F74B			2
+F74E			2
+F7DA			2
+F845			2
+F89E			2
+F8E7			2
+F8E8			2
+F953			2
+F95E			2
+FA3D			2
+FAD5			2
+FBC9			2
+FCED			2
+FD2C			2
+FE6E			2
+FF8E			2
+FFA3			2
+FFEA			2

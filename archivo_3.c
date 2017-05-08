@@ -30,12 +30,11 @@ void quicksort(int *A, int len)
 
 
 int main(int argc, char const *argv[]) {
-
   /* Se Abre el archivo  */
   FILE *inputfile;
   char c; // guarda cada caracter leido
   int largo = 0;
-  char *array = (char *)malloc(12000*sizeof(char *)); // array donde se guardan los elementos del arreglo
+  char *array = (char *)malloc(120000*sizeof(char *)); // array donde se guardan los elementos del arreglo
   inputfile = fopen("archivo_3.tex", "r");
   if (inputfile == NULL) {
       fprintf(stderr, "Failed to open the file.\n");
@@ -44,7 +43,6 @@ int main(int argc, char const *argv[]) {
   if (inputfile) {
       for ( int i=0; (c = getc(inputfile)) != EOF; i++){
           array[i] = c;
-          //putchar(a[i]);
           largo++;
       }
       fclose(inputfile);
@@ -53,6 +51,8 @@ int main(int argc, char const *argv[]) {
   clock_t start_t, end_t, total_t;
   start_t = clock();
   int *splitArray = malloc((largo/6)*sizeof(int *));
+
+  // se divide el arreglo a en segmentos de números de largo 6.
   for (size_t i = 0; i < largo/6; i++) {
     splitArray[i] = atoi(strndup(array + 6 * i, 6));
   }
@@ -74,9 +74,9 @@ int main(int argc, char const *argv[]) {
       aux = splitArray[i];
     }
   }
-
   end_t = clock();
   printf("\n time: %f segundos",  (double)(end_t - start_t) / CLOCKS_PER_SEC);
+  free(splitArray);
   free(array);
   return 0;
 }

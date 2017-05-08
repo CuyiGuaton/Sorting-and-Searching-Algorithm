@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass[10pt,letterpaper]{article}
 \usepackage[english]{babel}
 \usepackage{natbib}
 \usepackage{url}
@@ -12,7 +12,6 @@
 \usepackage{listings}
 \usepackage[ruled]{algorithm2e}
 \usepackage{program}
-\setmarginsrb{3 cm}{2.5 cm}{3 cm}{2.5 cm}{1 cm}{1.5 cm}{1 cm}{1.5 cm}
 
 \title{Hacerle la porta ql}								% Title
 \author{Sergio Salinas Fern\'andez \\
@@ -36,7 +35,43 @@ Danilo Abellá}								% Author
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\maketitle
+\begin{titlepage}
+
+\begin{center}
+
+{\Large { Universidad Santiago de Chile\\Facultad de Ciencia\\Licenciatura en Ciencia de la Computación
+ }}\\[5cm]
+
+
+
+{\huge \textsc{Complejidad de Algoritmos}}\\[1.5cm]
+
+{\Huge ``Algoritmos de
+búsqueda y ordenamiento'' }\\[1.5cm]
+
+
+{\LARGE 2\textsuperscript{o} Laboratorio}\\[8cm]
+
+\hspace*{\fill} 
+\end{center}
+\begin{minipage}[l]{0.4\textwidth}
+	\begin{flushleft}
+	\linespread{1}
+	\end{flushleft}
+\end{minipage}
+\begin{minipage}[l]{0.6\textwidth}
+
+	\begin{flushright}
+		
+		\textbf{Datos Informe}\\[0.1cm]
+		\large \textbf{Nombre alumnos:} Sergio Salinas\\
+		\large Danilo Abellá\\
+\large \textbf{Nombre profesor:} Dino Araya\\
+	\end{flushright}
+\end{minipage}
+\end{titlepage}
+\newpage
+\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -45,7 +80,7 @@ Danilo Abellá}								% Author
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+\newpage
 \section{Problema 1}
 
 \subsection{Solución Encontrada}
@@ -66,8 +101,7 @@ Además hay otra variable que se encarga de guardar la mayor frecuencia durante 
 
 Se utiliza este método por su efectividad, en lo que es la memoria, el arreglo A es de largo n y el arreglo B siempre es constante ya que siempre tendrá 10000 espacios de memoria que son los necesarios para guardar la frecuencia de los números del 0 al 9999, por lo la memoria total utilizada es de n + 1000, por lo que es de orden O(n).
 
-%Esto está como el pico, la lógica está mal, se me ocurrira algo
-%En lo que es la complejidad del algoritmo, es de orden O(n), esto es debido a que en el ciclo de aumentar la frecuencia de B dado un indice obtenido de A su operación básica se repite n veces, y en el ciclo de buscar el mayor número la operación comprar se repite 10000 veces, por lo que se tiene que la complejidad es n + 10000, orden O(n).
+En lo que es la complejidad del algoritmo, es de orden O(n), esto es debido a que en el ciclo de aumentar la frecuencia de B dado un indice obtenido de A su operación básica se repite n veces, y en el ciclo de buscar el mayor número la operación comprar se repite 10000 veces, por lo que se tiene que la complejidad es n + 10000.
 
 \newpage
 
@@ -90,27 +124,44 @@ Una vez ordenado de menor a mayor, el arreglo es recorrido y se van mostrando la
 
 \subsection{Justificación}
 
-Dado a sus bajos requerimientos de memoria y estabilidad (nunca intercambia registros con claves iguales) se considera el método de inserción un ordenamiento fiable para la implementación del algoritmo.
+Se decide crear una lista ordenada con todos los números de 4 dígitos del archivo tex debido a su facilidad de uso y porque el coste en memoria de este arreglo es de n-4. La complejidad de obtener todos los números de 4 dígitos del arreglo con los datos del archivo es de n-4.
 
-Pese a su lento proceso y la numerosas comparaciones necesarias a realizar, muestra un comportamiento razonablemente bien en gran cantidad de situaciones, y esta no es la escepción.
+Se decide usar el método de inserción dado a sus bajos requerimientos de memoria y estabilidad (nunca intercambia registros con claves iguales). Pese a su lento proceso y la numerosas comparaciones necesarias a realizar, muestra un comportamiento razonablemente bien en gran cantidad de situaciones, y esta no es la excepción, además que ser de fácil implementación.
 
-Tiene como complejidad en el peor de los casos O($n^2$) y en el mejor de los casos O(n) (o sea, cuando el arreglo está ordenado), y el recorrido guardar las secuencias de 4 dígitos hexadecimeales una de O(n-4).
+El método de inserción tiene como complejidad en el peor de los casos O($n^2$) y en el mejor de los casos O(n) (o sea, cuando el arreglo está ordenado), y el recorrido guardar las secuencias de 4 dígitos hexadecimeales una es de n-4.
 
 Por lo que la complejidad del algoritmo sería: 
 
 En el mejor caso: n + (n-4)
 \\
-En el peor caso: $n^2$+(n-4)
+En el peor caso: $n^2$ + (n-4)
 
 
+Y su uso de memoria total es de 2n-4, debido a que n es lo que cuesta el arreglo con los dígitos de un archivo, n-4 el arreglo con todos los números de 4 dígitos y el insertion sort solo requiere O(1) de espacio adicional.
 
+
+\newpage
 \section{Problema 3}
 
 \subsection{Solución Encontrada}
 
+$Archivo_3.tex$ no arroja ningún resultado, por lo que no hay ninguna secuencia de 6 dígitos repetidas según el corte que se le dio.
+
 \subsection{Estrategia}
 
+
+Se uso un método similar al segundo ejercicio, se guarda la data del texto $Archivo_3.tex$ en un arreglo A de largo n, este arreglo se recorre $\frac{n}{6}$ veces extrayendo en segmentos de 6 dígitos cada número del arreglo y guardandolos en un nuevo arreglo B en forma de INT.
+
+Este arreglo B se ordena usando el método de ordenamiento quicksort, de esta forma el arreglo B tiene los elementos repetidos uno al lado del otro, por último se recorre el arreglo contando la frecuencia con la que aparece cada elemento repetido de manera seguida y los que tengan frecuencia mayor a uno se muestran.
+
+
 \subsection{Justificación}
+
+Se utilizo este método debido a que su memoria es lineal, solo ocupa dos arreglos de largo n y $\frac{n}{6}$, el quicksort ocupa $\log n$ de memoria, por lo que ocupa $\frac{7n}{6} + \log n$ de memoria.
+
+Además de su rapidez, dividir el arreglo en secciones de 6 tiene complejidad de $\frac{n}{6}$ y ordenar el arreglo con el método quicksort tiene una complejidad de $n \log n $, por lo que su complejidad final es de $\frac{n}{6} + n \log n $, haciendo que el algoritmo sea de complejidad lineal logarítmica.
+
+Se usa el algoritmo quicksort debido a su rapidez y que ser el largo del arreglo par es más seguro que el pivote elegido sea el correcto.
 
 
 \end{document}

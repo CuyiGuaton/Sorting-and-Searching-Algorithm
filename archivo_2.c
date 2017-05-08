@@ -55,12 +55,12 @@ int main(int argc, char const *argv[]) {
 		hexarray[j + 1] = temp;
 	}
 
-	
+
 	// Mostrar Orden
-	
+
 	 printf("\n\nOrdenado por Inserción\n\n");
 
-	for (i = 0; i < largo-4; i++) 
+	for (i = 0; i < largo-4; i++)
 	{
 		printf("hexarray[%i] = %04X\n", i,hexarray[i] );
 	}
@@ -75,25 +75,25 @@ int main(int argc, char const *argv[]) {
 	printf("\nRepetida\n");
 
 	temp=0;
-	for (i = 0; i < largo-3; i++) 
+	for (i = 0; i < largo-3; i++)
 	{
 
 		if(hexarray[i]!=temp && cont>1 )
-		{	
+		{
 //			printf("n%04X-"/*"\n%04X \t %i"*/, hexarray[i-1]/*,cont */);	// Muestra lisatdo de frecuencias que se repiten (para informe)
 			printf("\n%04X	\t	%i", hexarray[i-1],cont );
 			cont=1;
-		
+
 		}
 
 		if ( temp==hexarray[i] && i!=0 )
-		{ 
-			cont++; 
+		{
+			cont++;
 		}
 		else
 		{
 			cont=1;
-		}	
+		}
 
 		temp=hexarray[i];
 

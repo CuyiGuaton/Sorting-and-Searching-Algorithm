@@ -24,9 +24,10 @@ int main(int argc, char const *argv[]) {
       fclose(inputfile);
   }
 
-  printf("El largo es: %i\n\n", largo);
+//  printf("El largo es: %i\n\n", largo);
 
-
+clock_t start_t, end_t, total_t;
+start_t = clock();
   /* Desde aquí empieza el proceso de busqueda del número de 4 digitos que más se repite */
     int *hexarray = (int*)malloc(10000*sizeof(int)); // crea un arreglo que va del 0 al 9999
     char key[2]; // key guarda temporalmente un strig de 4 caracteres del arreglo
@@ -56,23 +57,22 @@ int main(int argc, char const *argv[]) {
 	}
 
 
-	// Mostrar Orden
-
+// Mostrar Orden
+/*
 	 printf("\n\nOrdenado por Inserción\n\n");
 
 	for (i = 0; i < largo-4; i++)
 	{
 		printf("hexarray[%i] = %04X\n", i,hexarray[i] );
 	}
-
+*/
 	// Mostrar cantidad de repeticiones
 
 	printf("\n\nCantidad de Repeticiones\n\n");
 
 	int cont=1;
 
-	printf("\nSecuencia \t	Frecuencia.\n");
-	printf("\nRepetida\n");
+	printf("\nSecuencia Repetida \t	Frecuencia.\n");
 
 	temp=0;
 	for (i = 0; i < largo-3; i++)
@@ -81,7 +81,7 @@ int main(int argc, char const *argv[]) {
 		if(hexarray[i]!=temp && cont>1 )
 		{
 //			printf("n%04X-"/*"\n%04X \t %i"*/, hexarray[i-1]/*,cont */);	// Muestra lisatdo de frecuencias que se repiten (para informe)
-			printf("\n%04X	\t	%i", hexarray[i-1],cont );
+			printf("\n%04X - %i", hexarray[i-1],cont );
 			cont=1;
 
 		}
@@ -94,15 +94,11 @@ int main(int argc, char const *argv[]) {
 		{
 			cont=1;
 		}
-
 		temp=hexarray[i];
-
 	}
 
-
-
-
-
-    free(hexarray);
+  end_t = clock();
+  printf("\n time: %f segundos",  (double)(end_t - start_t) / CLOCKS_PER_SEC);
+  free(hexarray);
   return 0;
 }

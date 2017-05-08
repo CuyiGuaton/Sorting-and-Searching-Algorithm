@@ -70,6 +70,7 @@ Se utiliza este método por su efectividad, en lo que es la memoria, el arreglo 
 %En lo que es la complejidad del algoritmo, es de orden O(n), esto es debido a que en el ciclo de aumentar la frecuencia de B dado un indice obtenido de A su operación básica se repite n veces, y en el ciclo de buscar el mayor número la operación comprar se repite 10000 veces, por lo que se tiene que la complejidad es n + 10000, orden O(n).
 
 \newpage
+
 \section{Problema 2}
 
 \subsection{Solución Encontrada}
@@ -89,11 +90,18 @@ Una vez ordenado de menor a mayor, el arreglo es recorrido y se van mostrando la
 
 \subsection{Justificación}
 
-Dado a sus bajos requerimientos de memoria y estabilidad (nunca intercambia registros con claves iguales ) se considera un método de ordenamiento fiable para la implementación del algoritmo.
+Dado a sus bajos requerimientos de memoria y estabilidad (nunca intercambia registros con claves iguales) se considera el método de inserción un ordenamiento fiable para la implementación del algoritmo.
 
 Pese a su lento proceso y la numerosas comparaciones necesarias a realizar, muestra un comportamiento razonablemente bien en gran cantidad de situaciones, y esta no es la escepción.
 
-Tiene como complejidad en el peor de los casos O(n^2) y en el mejor de los casos O(n) (o sea, cuando el arreglo está ordenado).
+Tiene como complejidad en el peor de los casos O($n^2$) y en el mejor de los casos O(n) (o sea, cuando el arreglo está ordenado), y el recorrido guardar las secuencias de 4 dígitos hexadecimeales una de O(n-4).
+
+Por lo que la complejidad del algoritmo sería: 
+
+En el mejor caso: n + (n-4)
+\\
+En el peor caso: $n^2$+(n-4)
+
 
 
 \section{Problema 3}
